@@ -3,3 +3,34 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+   text-align: center;
+   padding: 30px;
+}
+#featured-property {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar a {
+  padding: 10px;
+  background-color: #f66969;
+}
+.details {
+  display: flex;
+}
+
+.details div {
+  float: left;
+  
+  background-color: #f66969;
+  width: 25%;
+  text-align: center;
+}
